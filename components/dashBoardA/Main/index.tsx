@@ -1,21 +1,30 @@
 import type { NextPage } from 'next';
 import styled from 'styled-components';
+import Down from './sections/Down/Down';
+import Top from './sections/Top/Top';
 
 const Wrapper = styled.div`
-  background-color: green;
   position: absolute;
   width: 1165px;
   height: 976px;
   left: 276px;
   top: 20px;
 
-  background: #FFFFFF;
+  // 색 #FFFFFF
+  background: #a6cab3;
   box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.04);
 `;
+const Container = styled.div`
+  position:relative;
+`;
+
 const Main = () => {
   return (
     <Wrapper>
-      main !@!#
+      <Container>
+        <Top />
+        <Down />
+      </Container>
     </Wrapper>
   );
 };
