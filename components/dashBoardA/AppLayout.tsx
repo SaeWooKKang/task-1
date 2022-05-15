@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
-import SideBar from './dashBoardA/SideBar'
-import Main from './/dashBoardA/Main';
+import SideBar from './SideBar'
+import Main from './Main';
 import styled from 'styled-components';
 
 interface Props {

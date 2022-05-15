@@ -11,8 +11,6 @@ const Wrapper = styled.div`
   left: 276px;
   top: 20px;
 
-  // 색 #FFFFFF
-  /* background: #a6cab3; */
   background: #FFFFFF;
   box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.04);
 `;

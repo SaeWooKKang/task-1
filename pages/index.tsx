@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div>
       index page
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

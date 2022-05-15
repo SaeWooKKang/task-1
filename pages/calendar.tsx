@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import AppLayout from '../components/AppLayout';
+import AppLayout from '../components/dashBoardA/AppLayout';
 
 const Calendar = () => {
 
