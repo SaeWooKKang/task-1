@@ -11,3 +11,9 @@
 7. AppLayout 컴포넌트로 SideBar 컴포넌트, Main의 스타일을 재사용
 8. - AppLayout 경로, List.tsx style 수정
    - _document.tsx 폰트 설정  
+
+## 패키지 초기화 방법
+- npm install
+
+## 서버 스타트 방법
+- npm run dev
