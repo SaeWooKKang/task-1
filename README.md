@@ -7,3 +7,4 @@
 3. SideBar 구조 및 스타일링 
 4. Main 구조 잡기 
 5. Main 구분선 적용 
+6. SideBar의 버튼 클릭시 색상 변경 
