@@ -8,16 +8,26 @@ const Wrapper = styled.div`
   width: 100%;
   height: 462px;
   
-  background-color: #f0ba57;
+  /* background-color: #f0ba57; */
+`;
+const Hr = styled.div`
+  width: 100%;
+  margin: 0; 
+  border: 0.5px solid rgba(204, 204, 204, 0.5);
 `;
 
 const Top = () => {
   return (
-    <Wrapper>
-      <Header />
-      
-      <DateChart />
-    </Wrapper>
+    <>
+      <Wrapper>
+        <Header />
+        <Hr />
+        
+        <DateChart />
+        <Hr />
+      </Wrapper>
+
+    </>
   );
 };
 

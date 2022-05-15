@@ -1,14 +1,20 @@
 import type { NextPage } from 'next';
 import styled from 'styled-components';
 
+interface Props {
+  children: JSX.Element;
+}
 const Wrapper = styled.header`
-  height: 68px;
   width: 100%;
-  
+  height: 52px;
+
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 1px 24px;
   gap: 10px;
+
+  /* background-color: red; */
 
   .title-chart {
     width: 294px;
@@ -22,31 +28,22 @@ const Wrapper = styled.header`
 
     color: #4A4A4A;
 
+
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 `;
-const Hr = styled.div`
-  width: 100%;
-  margin: 0; 
-  border: 0.5px solid rgba(204, 204, 204, 0.5);;
-`;
 
-const Header = () => {
+const Header = (props: Props) => {
+
   return (
-    <>
-      <Wrapper>
-        <div className='title-chart'>
-          코로나 일자별 확진자 수 
-        </div>
-      </Wrapper>
-
-      {/* <Hr /> */}
-    </>
-
+    <Wrapper>
+      <div className='title-chart'> 
+        { props.children } 
+      </div>
+    </Wrapper>
   );
-};
-
+}
 export default Header;
