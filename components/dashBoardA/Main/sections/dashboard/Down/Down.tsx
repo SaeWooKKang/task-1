@@ -7,7 +7,6 @@ import Header from './Header';
 const Wrapper = styled.div`
   width: 100%;
   height: 515px;
-  /* background-color: #cad7ad; */
   
   .container {
     display: flex;
@@ -15,23 +14,19 @@ const Wrapper = styled.div`
     .age-chart {
       width: 583px;
       height:515px;
-      /* background-color: #9897db; */
 
       .name {
         width: 100%;
         height: 52px;
-        /* background-color: #ab9e87; */
       }
     }
     .gender-chart {
       width: 582px;
       height:515px;
-      /* background-color: #80809a; */
 
       .name {
         width: 100%;
         height: 52px;
-        /* background-color: #907e5f; */
       }
     }
 
@@ -66,8 +61,9 @@ const Down = () => {
           </Header>
 
           <Hr />
-
-          <div>chart 자리</div>
+          
+          <AgeChart />
+        
         </div>
 
         <div className='gender-chart'>
@@ -79,7 +75,7 @@ const Down = () => {
 
           <Hr />
 
-          <div>chart 자리</div>
+          <GenderChart />
 
         </div>
         <hr className='vertical-horizon' />

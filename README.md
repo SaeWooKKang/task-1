@@ -8,3 +8,4 @@
 4. Main 구조 잡기 
 5. Main 구분선 적용 
 6. SideBar의 버튼 클릭시 색상 변경 
+7. AppLayout 컴포넌트로 SideBar 컴포넌트, Main의 스타일을 재사용

@@ -7,9 +7,8 @@ const Wrapper = styled.div`
   position:relative;
   width: 100%;
   height: 462px;
-  
-  /* background-color: #f0ba57; */
 `;
+
 const Hr = styled.div`
   width: 100%;
   margin: 0; 

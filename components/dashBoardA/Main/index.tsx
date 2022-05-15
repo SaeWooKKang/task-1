@@ -1,8 +1,9 @@
 import type { NextPage } from 'next';
 import styled from 'styled-components';
-import Down from './sections/Down/Down';
-import Top from './sections/Top/Top';
 
+interface Props {
+  children: JSX.Element
+}
 const Wrapper = styled.div`
   position: absolute;
   width: 1165px;
@@ -19,12 +20,13 @@ const Container = styled.div`
   position:relative;
 `;
 
-const Main = () => {
+const Main = (props: Props) => {
   return (
     <Wrapper>
       <Container>
-        <Top />
-        <Down />
+        <>
+          { props.children }
+        </>
       </Container>
     </Wrapper>
   );

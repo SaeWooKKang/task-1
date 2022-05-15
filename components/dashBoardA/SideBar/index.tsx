@@ -38,7 +38,6 @@ const Wrapper = styled.div`
 `;
 
 const SideBar = () => {
-  const items = ['DashBoard', 'research', 'Members', 'Insight', 'Calendar'];
 
   return (
     <Wrapper>

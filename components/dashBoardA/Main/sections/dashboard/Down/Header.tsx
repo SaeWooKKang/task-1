@@ -14,8 +14,6 @@ const Wrapper = styled.header`
   padding: 1px 24px;
   gap: 10px;
 
-  /* background-color: red; */
-
   .title-chart {
     width: 294px;
     height: 16px;

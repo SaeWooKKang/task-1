@@ -1,7 +1,11 @@
 import type { NextPage } from 'next';
-import SideBar from '../components/dashBoardA/SideBar';
-import Main from '../components/dashBoardA/Main';
+import SideBar from './dashBoardA/SideBar'
+import Main from './/dashBoardA/Main';
 import styled from 'styled-components';
+
+interface Props {
+  children: JSX.Element
+}
 
 const Wrapper = styled.div`
   display: flex;
@@ -12,13 +16,15 @@ const Wrapper = styled.div`
 
   background: #F8F8F8;
 `;
-const DashBoardA = () => {
+const AppLayout = (props: Props) => {
   return (
     <Wrapper>
       <SideBar />
-      <Main />
+      <Main>
+        { props.children }
+      </Main>
     </Wrapper>
   );
 };
 
-export default DashBoardA;
+export default AppLayout;
