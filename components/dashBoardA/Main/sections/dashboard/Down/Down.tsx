@@ -51,6 +51,7 @@ const Down = () => {
 
   return (
     <Wrapper>
+      <Hr />
       
       <div className='container'>
         <div className='age-chart'>

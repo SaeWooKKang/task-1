@@ -7,6 +7,11 @@ const Wrapper = styled.div`
   position:relative;
   width: 100%;
   height: 462px;
+
+  .container-chart {
+    width: 100%;
+    height: 394px;
+  }
 `;
 
 const Hr = styled.div`
@@ -20,10 +25,12 @@ const Top = () => {
     <>
       <Wrapper>
         <Header />
+
         <Hr />
-        
-        <DateChart />
-        <Hr />
+
+        <div className='container-chart'>
+          <DateChart /> 
+        </div>
       </Wrapper>
 
     </>
