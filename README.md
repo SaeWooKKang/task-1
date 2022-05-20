@@ -36,3 +36,6 @@
    - DateChart의 박스 컨테이너는 컴포넌트 상단으로 이동
    - rechart 라이브러리 react 18 버전 지원 안해서 react, react-om, @types/react @types/react-dom 버전 17로 내림
    - Top 컴포넌트 차트 영역에 recharts 라이브러리에 dummy 데이터 붙임
+10. dummy 데이터로 파이 차트 구현
+   - GenderChart의 박스 레퍼는 Down 컴포넌트로 이동
+   - GenderChart 컴포넌트에 rechart 라이브러리, dummy 데이터를 사용하여 파이 차트 구현

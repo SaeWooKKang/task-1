@@ -41,6 +41,15 @@ const Wrapper = styled.div`
     }
   }
 `;
+
+const GenderChartWrapper = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 463px;
+`;
+
 const Hr = styled.div`
   width: 100%;
   margin: 0; 
@@ -76,7 +85,9 @@ const Down = () => {
 
           <Hr />
 
-          <GenderChart />
+          <GenderChartWrapper>
+            <GenderChart />
+          </GenderChartWrapper>
 
         </div>
         <hr className='vertical-horizon' />

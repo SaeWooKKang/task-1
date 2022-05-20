@@ -11,6 +11,7 @@ import {
   Tooltip,
   Legend
 } from "recharts";
+import { useEffect } from 'react';
 
 const Wrapper = styled.div`
   height: 100%;
@@ -77,16 +78,16 @@ export default function Recharts() {
       <Tooltip />
       {/* <Legend /> */}
       <Line
+        activeDot={false}
         type="monotone"
         // dot == 도트 
         dot={false}
         // key 이름
         dataKey="decideCnt"
         stroke="#c3357c"
-        activeDot={{ r: 8 }}
+        // activeDot={{ r: 8 }}
       />
     </LineChart>  
     </Wrapper>
-    
   );
 }
