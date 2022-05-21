@@ -41,6 +41,15 @@ const Wrapper = styled.div`
     }
   }
 `;
+const AgeChartWrapper= styled.div`
+  position: relative;
+  width: 100%;
+  height: 463px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 const GenderChartWrapper = styled.div`
   position: relative;
@@ -71,9 +80,10 @@ const Down = () => {
           </Header>
 
           <Hr />
-          
-          <AgeChart />
-        
+
+          <AgeChartWrapper>
+            <AgeChart />
+          </AgeChartWrapper>
         </div>
 
         <div className='gender-chart'>
@@ -88,8 +98,8 @@ const Down = () => {
           <GenderChartWrapper>
             <GenderChart />
           </GenderChartWrapper>
-
         </div>
+
         <hr className='vertical-horizon' />
       </div>
     </Wrapper>

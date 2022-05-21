@@ -39,7 +39,10 @@
 10. dummy 데이터로 파이 차트 구현
    - GenderChart의 박스 레퍼는 Down 컴포넌트로 이동
    - GenderChart 컴포넌트에 rechart 라이브러리, dummy 데이터를 사용하여 파이 차트 구현
-
+11. dummy 데이터로 bar 차트 구현
+   - AgeChart의 박스 레퍼는 Down 컴포넌트로 이동
+   - AgeChart 컴포넌트에 rechart 라이브러리, dummy 데이터를 사용하여 bar 차트 구현
+   
 ## 패키지 초기화 방법
 - npm install
 
